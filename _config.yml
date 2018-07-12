@@ -1,2 +1,6 @@
 baseurl: /blog
+<<<<<<< HEAD
 logo: assets/images/logo.png
+=======
+theme: jekyll-theme-cayman
+>>>>>>> 282db48cd09c96723782dad92b95aa1d8cd7a88c
