@@ -1,5 +1,7 @@
 # Site settings
 title: 徐国忠Blog
+description: New Tech, New Thought.
+cover: assets/images/radhakrishna.jpg
 
 baseurl: /blog
 logo: assets/images/logo.png
