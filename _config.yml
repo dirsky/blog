@@ -7,5 +7,5 @@ cover: assets/images/radhakrishna.jpg
 baseurl: /blog
 logo: assets/images/logo.png
 
-kramdown:
-  input: GFM
+kramdown:redcarpet
+highlighter:pygments
