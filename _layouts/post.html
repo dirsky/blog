@@ -1,14 +1,9 @@
 ---
 layout: default
 ---
-index
-<h2>{{ site.title }}</h2>
-<p>{{ site.description }}</p>
+post
+{{ content }}
 
-
-    <img width="720" height="404" src="{{ site.url }}/blog/{{ site.cover }}"></img>
-
-<p>最新文章</p>
 <ul>
 
 {% for post in site.posts %}
@@ -21,5 +16,3 @@ index
 {% endfor %}
 
 </ul>
-
-

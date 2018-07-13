@@ -7,5 +7,8 @@ cover: assets/images/radhakrishna.jpg
 baseurl: /blog
 logo: assets/images/logo.png
 
-kramdown:
-  input: GFM
+kramdown:redcarpet
+highlighter:pygments
+
+redcarpet:
+    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
