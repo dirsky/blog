@@ -1,5 +1,5 @@
 ---
-layout: default
+layout: post
 ---
 
 <h2>{{ site.title }}</h2>
@@ -10,18 +10,4 @@ layout: default
 
 <p>最新文章</p>
 
-<ul>
 
-{% for post in site.posts %}
-	<li>
-		{{ post.date | date_to_string }} 
-		<a href="{{ site.baseurl }}{{ post.url }}">
-			{{ post.title }}
-		</a>
-	</li>
-{% endfor %}
-
-
-{{ paginator.total_posts }}
-
-</ul>
