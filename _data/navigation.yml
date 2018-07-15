@@ -1,0 +1,9 @@
+
+main:
+  chs:
+    - title: 主页
+      url: /
+    - title: 关于
+      url: /about.html
+    - title: 联系我
+      url: /contact.html

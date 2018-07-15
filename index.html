@@ -1,25 +1,6 @@
 ---
-layout: default
+layout: home
 ---
-index
-<h2>{{ site.title }}</h2>
-<p>{{ site.description }}</p>
 
-
-    <img width="720" height="404" src="{{ site.url }}/blog/{{ site.cover }}"></img>
-
-<p>最新文章</p>
-<ul>
-
-{% for post in site.posts %}
-	<li>
-		{{ post.date | date_to_string }} 
-		<a href="{{ site.baseurl }}{{ post.url }}">
-			{{ post.title }}
-		</a>
-	</li>
-{% endfor %}
-
-</ul>
 
 
