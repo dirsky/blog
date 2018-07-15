@@ -6,9 +6,3 @@ cover: assets/images/radhakrishna.jpg
 # 服务选项
 baseurl: /blog
 logo: assets/images/logo.png
-
-kramdown:redcarpet
-highlighter:pygments
-
-redcarpet:
-    extensions: [ "hard_wrap","autolink", "tables", "strikethrough", "superscript", "with_toc_data", "highlight", "prettify","no_intra_emphasis"]
