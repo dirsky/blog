@@ -9,7 +9,7 @@ cover: assets/images/radhakrishna.jpg
 baseurl: /blog
 logo: assets/images/logo.png
 
-paginate: 3
+paginate: 10
 
 kramdown:
   input: GFM

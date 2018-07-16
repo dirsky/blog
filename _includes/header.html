@@ -1,7 +1,7 @@
-{% assign nav = site.data.navigation["main"]["chs"] %}
+{% assign nav = site.data.navigation["nav"]["chs"] %}
 <header class="site-header" role="banner">
   <div class="wrapper"> 
-  
+  <img src="/blog/assets/images/red-polo.jpg" width="50" height="50">
     <a class="site-title" rel="author" href="{{ "/" | relative_url }}">{{ site.title | escape }}</a>
 	<nav class="site-nav">
         <input type="checkbox" id="nav-trigger" class="nav-trigger" />
@@ -12,6 +12,7 @@
             </svg>
           </span>
         </label>
+		
 		<div class="trigger">
 			{% for link in nav %}
 			<a class="page-link" href="{% if link.abs %}{{link.abs}}{% else %}{{ site.baseurl }}{{ link.url }}{% endif %}">{{ link.title }}</a>

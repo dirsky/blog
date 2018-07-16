@@ -1,0 +1,52 @@
+
+{% if paginator.total_pages > 1 %}
+
+<nav aria-label="Page navigation">
+  <ul class="pagination">
+  <li>第{{ paginator.page }}页/共{{ paginator.total_pages }}页</li>
+  {% if paginator.previous_page %}
+  <li class="active">
+    <button type="button" class="btn btn-default"><a href="{{ paginator.previous_page_path | prepend: site.baseurl | replace: '//', '/' }}"  aria-label="Previous"><span aria-hidden="true">&laquo;</span></a>
+	  </button>
+  </li>
+  {% else %}
+  <li>
+      <button type="button" class="btn btn-default disabled">
+	  <span aria-hidden="true">&laquo;</span>
+	  </button>
+  </li>
+  {% endif %}
+
+  {% for page in (1..paginator.total_pages) %}
+  <li class="active">
+    {% if page == paginator.page %}
+      <button type="button" class="btn btn-primary">{{ page }}</button>
+    {% elsif page == 1 %}
+      <button type="button" class="btn btn-default">
+		<a href="{{ '/index.html' | prepend: site.baseurl | replace: '//', '/' }}">{{ page }}</a>
+	  </button>
+    {% else %}
+      <button type="button" class="btn btn-default">
+		<a href="{{ site.paginate_path | prepend: site.baseurl | replace: '//', '/' | replace: ':num', page }}">{{ page }}</a>
+	  </button>
+    {% endif %}
+  </li>
+  {% endfor %}
+
+  {% if paginator.next_page %}
+  <li class="active">
+    <button type="button" class="btn btn-default"><a href="{{ paginator.next_page_path | prepend: site.baseurl | replace: '//', '/' }}"> &raquo;</a>
+	  </button>
+  </li>
+  {% else %}    
+  <li class="disabled">
+	  <button type="button" class="btn btn-default disabled">
+	  <span aria-hidden="true">&raquo;</span>
+	  </button>
+  </li>
+  {% endif %}
+    </li>
+  </ul>
+</nav>
+{% endif %} 
+
