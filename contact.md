@@ -1,9 +1,10 @@
 ---
 layout: default
-title: CONTACT
+title: 联系我们
 ---
 
 
-## CONTACT
+## {{page.title}}
 * * *
+
 

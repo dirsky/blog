@@ -1,9 +1,9 @@
 ---
 layout: default
-title: ABOUT
+title: 关于
 ---
 
 
-## ABOUT
+## {{page.title}}
 * * *
 
