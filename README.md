@@ -1,4 +1,4 @@
-# blog
+﻿# blog
 修改测试
 
-## on github
+## on github&gitee
