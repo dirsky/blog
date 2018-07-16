@@ -1,4 +1,4 @@
-﻿# blog
+# blog
 修改测试
 
-## on github&gitee
+## on2 github&gitee
