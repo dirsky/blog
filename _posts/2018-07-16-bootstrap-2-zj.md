@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 组件
+title: Bootstrap-组件
 author: Frank
 category: Learn
-tags: Learn
+tags: Bootstrap
 published: true
 ---
 <ul class="nav nav-tabs">

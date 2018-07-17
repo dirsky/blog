@@ -1,9 +1,9 @@
 ---
 layout: post
-title: 表格
+title: Bootstrap-Table
 author: Frank
 category: Learn
-tags: Learn
+tags: Bootstrap
 published: true
 ---
 
