@@ -1,6 +1,6 @@
 ---
 layout: post
-title: 插件
+title: bootstrap-插件
 author: Frank
 category: Learn
 tags: Learn
