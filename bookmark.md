@@ -24,7 +24,7 @@ author: Frank
 </h2>
 <h4>
     {% for b in bookmark[ title ] %}
-    <a href="{{ b.url }} " target="_blank">{{ b.title }}</a>&nbsp;&nbsp;
+    ◆<a href="{{ b.url }} " target="_blank">{{ b.title }}</a>&nbsp;&nbsp;
     {% endfor %}
 </h4>
 {% endfor %}

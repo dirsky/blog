@@ -13,11 +13,19 @@ bookmark:
   常用:
     - title: 主页
       url: http://www.baidu.com
-    - title: 关于
-      url: /about
-    - title: 联系我们
-      url: /contact
+    - title: 风云榜
+      url: http://top.baidu.com/
+    - title: 印象
+      url: https://app.yinxiang.com/Home.action
+    - title: 编码规范
+      url: https://codeguide.bootcss.com/
   新星科技:
+    - title: 公司邮箱
+      url: http://mail.91xxkj.com
+    - title: 纷享销客
+      url: https://www.fxiaoke.com/XV/Home/Index#plan
+    - title: 钉DING
+      url: https://im.dingtalk.com/
     - title: 报表信息管理
       url: http://111.7.172.88:8041/
     - title: 报表信息管理2
@@ -46,6 +54,8 @@ bookmark:
       url: https://www.oschina.net/p/nchinese
     - title: dotnetcurry
       url: http://www.dotnetcurry.com/
+    - title: 代码片段
+      url: http://www.zuidaima.com/share.htm
   算法:
     - title: 十大编程
       url: http://www.lupaworld.com/article-242544-1.html
