@@ -4,19 +4,27 @@ title: 我的书签
 author: Frank
 ---
 
+{% assign bookmark = site.data.bookmark["bookmark"] %}
+{% assign category = site.data.bookmark["category"] %}
+
 ## {{page.title}}
 * * *
 
-> 一盏灯， 一片昏黄； 一简书， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 
+<blockquote>
+    <p>一盏灯， 一片昏黄；一书签， 一杯淡茶。 守着那一份淡定， 品读属于自己的寂寞。 保持淡定， 才能欣赏到最美丽的风景！ 保持淡定， 人生从此不再寂寞。</p>
+    <footer>Someone famous in
+        <cite title="Source Title">书摘</cite>
+    </footer>
+</blockquote>
 
+
+{% for c in category %}
 <h2>
-常用
+    {% assign title = c %} {{title}}
 </h2>
 <h4>
-    <a href="http://www.baidu.com" target="view_window">标题</a>
-    <a href="http://www.baidu.com" target="view_window">标题</a>
+    {% for b in bookmark[ title ] %}
+    <a href="{{ b.url }} " target="_blank">{{ b.title }}</a>&nbsp;&nbsp;
+    {% endfor %}
 </h4>
-<h4>
-    <a href="http://www.baidu.com" target="view_window">标题</a>
-    <a href="http://www.baidu.com" target="view_window">标题</a>
-</h4>
+{% endfor %}
