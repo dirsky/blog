@@ -2,10 +2,8 @@
 修改测试
 
 
-## on github&gitee
+## on github&gitee&vs code
 
-未实现,在vs code上面进行修改并提交
-test++
-
+实现三种方式代码同步
 
 
