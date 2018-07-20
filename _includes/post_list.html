@@ -1,0 +1,29 @@
+<div class="panel panel-primary">
+  <div class="panel-heading">
+    <h3 class="panel-title">{{ Panel_title }}</h3>
+  </div>
+  <div class="panel-body">
+    {%- if site.posts.size > 0 -%}
+    <ul class="post-list">
+      {%- for post in paginator.posts -%} {%- for t in post.tags -%} {%- if tag == t or tag=="" -%}
+      <li>
+        <h3>
+          <span>
+            <a href="{{ post.url | relative_url }}"> {{ post.title }}</a>
+          </span>
+
+          {%- assign date_format = site.minima.date_format | default: "%b %-d, %Y" -%}
+          <span class="post-meta">{{ post.date | date: date_format }}</span>
+
+          {%- if post.author -%} &nbsp;
+          <span class="badge post-meta">作者: {{ post.author }}</span>
+          {%- endif -%} {%- if post.tags.size > 0 -%}
+          <span class="post-meta"> 标签: {{ post.tags }}</span>
+          {%- endif -%}
+        </h3>
+      </li>
+      {%- endif -%} {%- endfor -%} {%- endfor -%}
+    </ul>
+    {%- endif -%} {% include post_pagination.html %}
+  </div>
+</div>

@@ -1,5 +1,5 @@
 ---
-layout: home
+layout: default
 title: 主页
 author: Frank
 ---
@@ -56,3 +56,7 @@ author: Frank
 </h4>
 {% endfor %}
 </div>
+
+{% assign Panel_title = "最新" %}
+{% assign tag = "" %}
+{% include post_list.html %}
