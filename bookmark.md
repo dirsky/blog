@@ -17,6 +17,12 @@ author: Frank
     </footer>
 </blockquote>
 
+<div class="input-group">
+    <input type="text" class="form-control" placeholder="Search for..." id="SearchInput">
+    <span class="input-group-btn">
+        <button class="btn btn-default" type="button" id="Search">Search</button>
+    </span>
+</div>
 
 {% for c in category %}
 <h2>
