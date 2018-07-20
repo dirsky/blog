@@ -18,12 +18,39 @@ author: Frank
 </blockquote>
 
 <div class="input-group">
+    <div class="input-group-btn">
+        <button type="button" class="btn btn-default" aria-label="Left Align" id="btn-bookmark">
+            <span class="glyphicon glyphicon-bookmark" aria-hidden="true"></span>
+        </button>
+    </div>
     <input type="text" class="form-control" placeholder="Search for..." id="SearchInput">
-    <span class="input-group-btn">
-        <button class="btn btn-default" type="button" id="Search">Search</button>
-    </span>
+    <div class="input-group-btn">
+        <button type="button" class="btn btn-danger" id="baidu">Baidu</button>
+        <button type="button" class="btn btn-danger dropdown-toggle" data-toggle="dropdown" aria-haspopup="true" aria-expanded="false">
+            <span class="caret"></span>
+            <span class="sr-only">Toggle Dropdown</span>
+        </button>
+        <ul class="dropdown-menu">
+            <li>
+                <a href="#" id="bing">Bing</a>
+            </li>
+            <li>
+                <a href="#" id="google">Google</a>
+            </li>
+            <li role="separator" class="divider"></li>
+            <li>
+                <a href="#">Zhihu</a>
+            </li>
+        </ul>
+    </div>
 </div>
 
+<br/>
+
+
+
+
+<div id="div-bookmark" style="display:none">
 {% for c in category %}
 <h2>
     {% assign title = c %} {{title}}
@@ -34,3 +61,4 @@ author: Frank
     {% endfor %}
 </h4>
 {% endfor %}
+</div>

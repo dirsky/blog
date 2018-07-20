@@ -3,7 +3,17 @@
 
 
 <script type="text/javascript">
-    $("#Search").click(function () {
-        window.location.href="https://www.baidu.com/s?wd="+$("#SearchInput").val();
+    $("#baidu").click(function () {
+        window.open("https://www.baidu.com/s?wd=" + $("#SearchInput").val());
     });
+    $("#bing").click(function () {
+        window.open("https://cn.bing.com/search?q=" + $("#SearchInput").val());
+    });
+    $("#google").click(function () {
+        window.open("https://www.google.com/search?q=" + $("#SearchInput").val());
+    });
+
+    $("#btn-bookmark").click(function(){
+        $("#div-bookmark").toggle();
+    })
 </script>
