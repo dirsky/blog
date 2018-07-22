@@ -5,7 +5,7 @@
   <div class="panel-body">
     {%- if site.posts.size > 0 -%}
     <ul class="post-list">
-      {%- for post in site.posts -%} {%- for t in post.tags -%} {%- if tag == t or tag=="" -%}
+      {%- for post in paginator.posts -%} {%- for t in post.tags -%} {%- if tag == t or tag=="" -%}
       <li>
         <h3>
           <span>
