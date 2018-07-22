@@ -6,7 +6,7 @@ description: New Tech, New Thought.
 cover: /assets/images/radhakrishna.jpg
 
 # 服务选项
-baseurl: ""
+baseurl: "blog"
 logo: /assets/images/logo.jpg
 
 paginate: 10
