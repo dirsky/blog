@@ -56,7 +56,6 @@ bookmark:
       url: http://www.dotnetcurry.com/
     - title: 代码片段
       url: http://www.zuidaima.com/share.htm
-  算法:
     - title: 十大编程
       url: http://www.lupaworld.com/article-242544-1.html
   OS:
@@ -69,9 +68,6 @@ bookmark:
   DB:
     - title: MySQL
       url: http://www.runoob.com/mysql/mysql-tutorial.html
-  酷站:
-    - title: lapa
-      url: https://www.lapa.ninja/
   Other:
     - title: JSON
       url: http://www.json.org.cn/
@@ -79,5 +75,5 @@ bookmark:
       url: http://echarts.baidu.com/echarts2/doc/example.html
     - title: ECharts2
       url: http://echarts.baidu.com/
-    - title: JSON
-      url: http://www.json.org.cn/
+    - title: lapa
+      url: https://www.lapa.ninja/
