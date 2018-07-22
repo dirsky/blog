@@ -1,7 +1,10 @@
 ---
 layout: post
 title: 你好，世界
-tags: Learn
+author: Frank
+category: Learn
+tags: First
+published: true
 ---
 
 
