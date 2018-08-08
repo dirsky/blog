@@ -1,83 +1,13 @@
 category:
   - 常用
-  - 新星科技
   - 博客
-  - DotNet
-  - 算法
-  - OS
-  - 酷站
-  - DB
-  - Other
 
 bookmark:
   常用:
-    - title: 主页
-      url: http://www.baidu.com
     - title: 风云榜
       url: http://top.baidu.com/
-    - title: 印象
-      url: https://app.yinxiang.com/Home.action
-    - title: 编码规范
-      url: https://codeguide.bootcss.com/
-  新星科技:
-    - title: 公司邮箱
-      url: http://mail.91xxkj.com
-    - title: 纷享销客
-      url: https://www.fxiaoke.com/XV/Home/Index#plan
-    - title: 钉DING
-      url: https://im.dingtalk.com/
-    - title: 报表信息管理
-      url: http://111.7.172.88:8041/
-    - title: 报表信息管理2
-      url: http://111.7.172.88:8042/
-    - title: 登封市-贫困户慢病患者门诊补偿管理系统
-      url: http://218.29.107.10:5000/Account/Login
-    - title: 禅道
-      url: http://218.29.107.10:5000/Account/Login
   博客:
     - title: jekyll
       url: https://www.jekyll.com.cn/
     - title: 简书Markdown
       url: https://www.jianshu.com/p/q81RER
-  DotNet:
-    - title: C#设计模式总结
-      url: https://www.cnblogs.com/zhili/p/DesignPatternSummery.html
-    - title: ASP.NET Core
-      url: https://docs.microsoft.com/zh-cn/aspnet/core/?view=aspnetcore-2.1
-    - title: ASP.NET Core 中文文档
-      url: http://www.cnblogs.com/dotNETCoreSG/p/aspnetcore-index.html
-    - title: NuGet
-      url: https://www.nuget.org/
-    - title: C# 编程指南
-      url: http://shouce.jb51.net/net/index.html
-    - title: 处理中文字词
-      url: https://www.oschina.net/p/nchinese
-    - title: dotnetcurry
-      url: http://www.dotnetcurry.com/
-    - title: 代码片段
-      url: http://www.zuidaima.com/share.htm
-  算法:
-    - title: 十大编程
-      url: http://www.lupaworld.com/article-242544-1.html
-  OS:
-    - title: 多个Linux
-      url: http://www.linuxdown.net/
-    - title: 红帽
-      url: https://www.redhat.com/zh/global/china
-    - title: CentOS
-      url: https://www.centos.org/
-  DB:
-    - title: MySQL
-      url: http://www.runoob.com/mysql/mysql-tutorial.html
-  酷站:
-    - title: lapa
-      url: https://www.lapa.ninja/
-  Other:
-    - title: JSON
-      url: http://www.json.org.cn/
-    - title: ECharts
-      url: http://echarts.baidu.com/echarts2/doc/example.html
-    - title: ECharts2
-      url: http://echarts.baidu.com/
-    - title: JSON
-      url: http://www.json.org.cn/

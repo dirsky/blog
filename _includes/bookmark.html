@@ -1,0 +1,15 @@
+{% assign bookmark = site.data.bookmark["bookmark"] %}
+{% assign category = site.data.bookmark["category"] %}
+
+<div id="div-bookmark" style="display:none">
+  {% for c in category %}
+  <h3>
+      {% assign title = c %} {{title}}
+  </h3>
+  <h4>
+      {% for b in bookmark[ title ] %}
+      ◆<a href="{{ b.url }} " target="_blank">{{ b.title }}</a>&nbsp;&nbsp;
+      {% endfor %}
+  </h4>
+  {% endfor %}
+  </div>

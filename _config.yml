@@ -3,11 +3,11 @@ title: GeekLab
 author: 徐国忠
 email: 991875160@qq.com
 description: New Tech, New Thought.
-cover: assets/images/radhakrishna.jpg
+cover: /assets/images/radhakrishna.jpg
 
 # 服务选项
 baseurl: /blog
-logo: assets/images/logo.png
+logo: /assets/images/logo.jpg
 
 paginate: 10
 

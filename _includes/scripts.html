@@ -1,7 +1,6 @@
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/jquery-3.3.1.min.js"></script>
 <script type="text/javascript" src="{{ site.baseurl }}/assets/js/bootstrap.min.js"></script>
 
-
 <script type="text/javascript">
     $("#baidu").click(function () {
         window.open("https://www.baidu.com/s?wd=" + $("#SearchInput").val());
@@ -16,4 +15,9 @@
     $("#btn-bookmark").click(function(){
         $("#div-bookmark").toggle();
     })
+
+    $(".close").click(function () {
+        $(".panel").toggle();
+    })
+
 </script>
